@@ -42,7 +42,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         siteMetadata {
         canonical_url,
         conference_hashtag,
+        logo,
         conference_name,
+        conference_date,
         conference_claim
         home {
             title

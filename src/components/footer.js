@@ -72,12 +72,11 @@ export default () => (
         
                 <Sponsors sponsorBlocks={configData.sponsor_blocks}/>
         
-                <section>
+                <div id="credit">
                     <div className="container">
-                        <hr></hr>
-                        Created with the <a href="https://github.com/asiermarques/gatsby-starter-conferencer">Gatsby Conferencer starter</a>
+                        Bilbostack 2020 | Website created with the <a href="https://github.com/asiermarques/gatsby-starter-conferencer">Gatsby Conferencer starter</a>
                     </div>
-                </section>
+                </div>
         
                         
         
