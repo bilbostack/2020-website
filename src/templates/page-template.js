@@ -52,7 +52,7 @@ export default function PageTemplate({
             <div className="container">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="/"><FaArrowLeft/> back to the home</a>
+                        <a class="nav-link active" href="/"><FaArrowLeft/> volver al inicio</a>
                     </li>
                 </ul>
             </div>

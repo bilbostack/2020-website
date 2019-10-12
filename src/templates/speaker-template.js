@@ -50,7 +50,7 @@ const SpeakerTemplate = context => {
             <div className="container">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="/#agenda"><FaArrowLeft/> back to the agenda</a>
+                        <a class="nav-link active" href="/#agenda"><FaArrowLeft/> volver a la agenda</a>
                     </li>
                 </ul>
             </div>
@@ -74,7 +74,7 @@ const SpeakerTemplate = context => {
                         </p>
 
                         <div className="block">
-                            <h4>About</h4>
+                            <h4>Acerca de</h4>
                             <p dangerouslySetInnerHTML={bioWithHtml()}></p>
                         </div>
 

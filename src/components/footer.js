@@ -61,7 +61,7 @@ export default () => (
                             </div>
         
                             <div class="col-md-5 text-center">
-                              <h4>About</h4>
+                              <h4>Bilbostack 2020</h4>
                               <Nav items={configData.footer_links}></Nav>
                             </div>
         

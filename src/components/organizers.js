@@ -1,7 +1,7 @@
 import React from "react"
 
 export default ({organizers}) => <>
-    <h3>Organizers</h3>
+    <h3>Organizadores</h3>
     <div class="row justify-content-start">
     {organizers.map( (organizer, index) => 
         <div key={index} class="col-6 col-md-3">

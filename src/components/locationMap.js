@@ -1,7 +1,7 @@
 import React from "react"
 
 export default ({ location }) => <section id="where">
-        <h2 class="text-center">Location</h2>
+        <h2 class="text-center">Localización</h2>
         <div class="content_wrap">
 
           <div class="content">
