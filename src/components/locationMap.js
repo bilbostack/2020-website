@@ -16,7 +16,7 @@ export default ({ location }) => <section id="where">
                     <p> 
                       <span dangerouslySetInnerHTML={{__html:address.line}}></span>
                       <br></br>
-                      <small><a target="_blank" rel="noopener noreferrer" href={address.map_link}>open map</a></small>
+                      <small><a target="_blank" rel="noopener noreferrer" href={address.map_link}>Abrir en Google Maps</a></small>
                     </p>
 
                   </div>) )}

@@ -146,6 +146,10 @@ module.exports =
         {
             "link": "/#agenda",
             "title": "Agenda"
+        },
+        {
+            "link": "/indications",
+            "title": "Cómo llegar"
         }
 
     ]
