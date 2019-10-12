@@ -43,16 +43,16 @@ export default ({data}) => {
     <section id="stats">
       <div className="container">
           <div className="row">
-            <div className="col col-xs-6">
+            <div className="col col-6 col-md-3">
               <span>2&nbsp;tracks</span>
             </div>
-            <div className="col col-xs-6">
+            <div className="col col-6 col-md-3">
               <span>8&nbsp;ponentes</span>
             </div>
-            <div className="col col-xs-6">
+            <div className="col col-6 col-md-3">
               <span>~700&nbsp;asistentes</span>
             </div>
-            <div className="col col-xs-6">
+            <div className="col col-6 col-md-3">
               <span>10x&nbsp;networking</span>
             </div>
           </div>
