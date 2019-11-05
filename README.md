@@ -11,11 +11,12 @@
     Navigate into your directory and start it up.
 
 
-    ```sh
+    ```  
+    
     cd website/  
 
     yarn install  
-    
+
     gatsby develop
     ```
 
