@@ -1,6 +1,7 @@
 # How to work with the website
 
 1.  **Clone the repository.**
+
     ```
     git clone git@bitbucket.org:bilbostack/website.git
     ```
@@ -9,8 +10,10 @@
 
     Navigate into your directory and start it up.
 
+
     ```sh
     cd website/
+    yarn install
     gatsby develop
     ```
 
