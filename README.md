@@ -2,27 +2,26 @@
 
 1.  **Clone the repository.**
 
-    ```
-    git clone git@bitbucket.org:bilbostack/website.git
-    ```
+```
+git clone git@bitbucket.org:bilbostack/website.git
+```
     
 2.  **Start developing.**
 
-    Navigate into your directory and start it up.
+Navigate into your directory and start it up.
 
 
-    ```  
-    
-    cd website/  
+``` 
+cd website/  
 
-    yarn install  
+yarn install  
 
-    gatsby develop
-    ```
+gatsby develop  
+```
 
 3.  **Open the source code and start editing!**
 
-    Your site is now running at `http://localhost:8000`
+Your site is now running at `http://localhost:8000`
 
 > note: you need to restart the server if you make changes in the data/data.js files
 
