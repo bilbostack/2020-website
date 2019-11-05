@@ -12,8 +12,10 @@
 
 
     ```sh
-    cd website/
-    yarn install
+    cd website/  
+
+    yarn install  
+    
     gatsby develop
     ```
 
