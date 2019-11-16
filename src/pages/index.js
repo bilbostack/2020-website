@@ -47,7 +47,7 @@ export default ({data}) => {
               <span>2&nbsp;tracks</span>
             </div>
             <div className="col col-md-3  col-sm-6 col-12">
-              <span>8&nbsp;ponentes</span>
+              <span>8&nbsp;ponencias</span>
             </div>
             <div className="col col-md-3  col-sm-6 col-12">
               <span>~700&nbsp;asistentes</span>
