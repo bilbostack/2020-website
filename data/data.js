@@ -30,13 +30,15 @@ module.exports =
         {
             "visible": true,
             "slug": "luis-fraile",
+            "company": "",
             "image": "",
             "name": "Luis Fraile Hernández",
             "bio": "",
             "social": {
                 "twitter": "https://twitter.com/lfraile",
                 "linkedin": "https://www.linkedin.com/in/lfraile/",
-                "web": "https://www.lfraile.net"
+                "github": ""
+                //"web": "https://www.lfraile.net"
             },
             "talk": {
                 "title": "DevOps: el camino de la entrega de valor en software",
@@ -46,13 +48,15 @@ module.exports =
         {
             "visible": true,
             "slug": "joan-leon",
+            "company": "",
             "image": "",
             "name": "Joan León",
             "bio": "",
             "social": {
                 "twitter": "https://twitter.com/nucliweb",
+                "linkedin": "",
                 "github": "https://github.com/nucliweb",
-                "web": "http://nucliweb.net/"
+                // "web": "http://nucliweb.net/"
             },
             "talk": {
                 "title": "Unos estáticos muy dinámicos",
@@ -62,12 +66,14 @@ module.exports =
         {
             "visible": true,
             "slug": "nerea-luis",
+            "company": "",
             "image": "",
             "name": "Nerea Luis Mingueza",
             "bio": "",
             "social": {
                 "twitter": "https://twitter.com/sailormerqury",
-                "linkedin": "https://www.linkedin.com/in/nerealuis/"
+                "linkedin": "https://www.linkedin.com/in/nerealuis/",
+                "github": ""
             },
             "talk": {
                 "title": "Redes generativas adversarias",
@@ -77,12 +83,14 @@ module.exports =
         {
             "visible": true,
             "slug": "isabel-garrido",
+            "company": "",
             "image": "",
             "name": "Isabel Garrido Cardenas",
             "bio": "",
             "social": {
                 "twitter": "https://twitter.com/isabeliita90",
-                "linkedin": "https://es.linkedin.com/in/isabel-garrido-4000164a"
+                "linkedin": "https://es.linkedin.com/in/isabel-garrido-4000164a",
+                "github": ""
             },
             "talk": {
                 "title": "Otra charla sobre microservicios",
@@ -92,12 +100,14 @@ module.exports =
         {
             "visible": true,
             "slug": "sergi-gonzalez",
+            "company": "",
             "image": "",
             "name": "Sergi González",
             "bio": "",
             "social": {
                 "twitter": "https://twitter.com/sergigp",
-                "linkedin": "https://www.linkedin.com/in/sergigp/"
+                "linkedin": "https://www.linkedin.com/in/sergigp/",
+                "github": ""
             },
             "talk": {
                 "title": "Otra charla sobre microservicios",
@@ -107,6 +117,7 @@ module.exports =
         {
             "visible": true,
             "slug": "ignacio-velazquez",
+            "company": "",
             "image": "https://www.gravatar.com/avatar/49f04efaf80ecb68e6e383919019b843?s=500",
             "name": "Ignacio Velazquez",
             "bio": "",
@@ -114,7 +125,7 @@ module.exports =
                 "twitter": "https://twitter.com/nass600",
                 "linkedin": "https://www.linkedin.com/in/nass600",
                 "github": "https://github.com/nass600",
-                "web": "https://ignaciovelazquez.es/"
+                // "web": "https://ignaciovelazquez.es/"
             },
             "talk": {
                 "title": "Implementing corporate Design Systems in React",
@@ -124,12 +135,14 @@ module.exports =
         {
             "visible": true,
             "slug": "laura-morillo",
+            "company": "",
             "image": "",
             "name": "Laura Morillo-Velarde Rodríguez",
             "bio": "",
             "social": {
                 "twitter": "https://twitter.com/laura_morillo",
-                "linkedin": "https://es.linkedin.com/in/lauramorillovelarderodriguez"
+                "linkedin": "https://es.linkedin.com/in/lauramorillovelarderodriguez",
+                "github": ""
             },
             "talk": {
                 "title": "¿Qué le pasa a mis microservicios?",
@@ -139,11 +152,14 @@ module.exports =
         {
             "visible": true,
             "slug": "berta-devant",
+            "company": "",
             "image": "",
             "name": "Berta Devant Pintado",
             "bio": "",
             "social": {
-                "twitter": "https://twitter.com/bertadevant"
+                "twitter": "https://twitter.com/bertadevant",
+                "linkedin": "",
+                "github": ""
             },
             "talk": {
                 "title": "TBD",
@@ -153,13 +169,15 @@ module.exports =
         {
             "visible": true,
             "slug": "silvia-calvet",
+            "company": "",
             "image": "",
             "name": "Silvia Calvet",
             "bio": "",
             "social": {
                 "twitter": "https://twitter.com/silviacalvet",
-                "web": "http://stereometrics.info/",
-                "linkedin": "https://www.linkedin.com/in/silviacalvet/"
+                // "web": "http://stereometrics.info/",
+                "linkedin": "https://www.linkedin.com/in/silviacalvet/",
+                "github": ""
             },
             "talk": {
                 "title": "El poder de las restricciones",
@@ -168,7 +186,7 @@ module.exports =
         }
     ],
     "agenda": {
-        "visible": false,
+        "visible": true,
         "time_slots": ["10:00-11:00", "11:00-12:00"],
         "tracks":[
             {
