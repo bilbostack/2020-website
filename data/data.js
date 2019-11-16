@@ -29,24 +29,146 @@ module.exports =
     "speakers": [
         {
             "visible": true,
-            "slug": "sara-smith",
-            "image": "https://randomuser.me/api/portraits/women/40.jpg",
-            "name": "Sara Smith",
-            "company": "CTO Tyller Corp.",
-            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "slug": "luis-fraile",
+            "image": "",
+            "name": "Luis Fraile Hernández",
+            "bio": "",
             "social": {
-                "twitter": "https://twitter.com/asiermarques",
-                "linkedin": "https://linkedin.com/in/asier",
-                "github": "https://github.com/asiermarques"
+                "twitter": "https://twitter.com/lfraile",
+                "linkedin": "https://www.linkedin.com/in/lfraile/",
+                "web": "https://www.lfraile.net"
             },
             "talk": {
-                "title": "Talk title demo",
-                "description": "Talk description demo"
+                "title": "DevOps: el camino de la entrega de valor en software",
+                "description": "DevOps incluye muchas prácticas, testing, monitorización, feedback, y por supuesto entrega continua de valor. Vamos a hacer un recorrido sobre las estrategias que podemos seguir a la hora de entrega de valor en nuestros flujos de entrega de software, en los que incluiremos también testing automatizado, monitorización de la entrega, blue/green, entornos canary, y otras estrategias Haremos algunos ejemplos reales de entrega usando Azure DevOps Pipelines y Microsoft Azure como entorno de entrega. El objetivo  de esta charla es ver cuales de estas prácticas pueden tener sentido en vuestros equipos y productos, y por dónde empezar y un ejemplo práctico con Azure DevOps Pipelines."
+            }
+        },
+        {
+            "visible": true,
+            "slug": "joan-leon",
+            "image": "",
+            "name": "Joan León",
+            "bio": "",
+            "social": {
+                "twitter": "https://twitter.com/nucliweb",
+                "github": "https://github.com/nucliweb",
+                "web": "http://nucliweb.net/"
+            },
+            "talk": {
+                "title": "Unos estáticos muy dinámicos",
+                "description": "En muchos proyectos, tenemos una series de recursos que no son dinámicos: imágenes, vídeos, iconos, tipografías o textos i18n. Las imágenes suelen ser las menos cuidadas, desde el punto de vista de la performance. Y lo sé de primera mano, así que os quiero contar cómo pasamos de una carpeta images desplegada en un S3, a un repositorio con unas guidelines de la estructura, naming, automatización de compresión de imágenes y generación de “Responsive Images”, test de regresión visual e incluso un garbage images collector, para hacer limpieza de esas imágenes que quedan en el olvido."
+            }
+        },
+        {
+            "visible": true,
+            "slug": "nerea-luis",
+            "image": "",
+            "name": "Nerea Luis Mingueza",
+            "bio": "",
+            "social": {
+                "twitter": "https://twitter.com/sailormerqury",
+                "linkedin": "https://www.linkedin.com/in/nerealuis/"
+            },
+            "talk": {
+                "title": "Redes generativas adversarias",
+                "description": "Hasta el momento, el paradigma típico de extracción de conocimiento utilizando Machine Learning consistía en explotar fuentes de datos utilizando diferentes algoritmos, como podían ser las redes de neuronas. Con la llegada de las redes generativas adversarias (GANs), este paradigma cambia y ahora podemos generar nuevas instancias basadas en las conocidas, las que se encuentran en las fuentes de datos. El objetivo sería, por un lado, complementar los datasets y por otro, aprender qué características son clave en la toma de decisiones. Con esto también conseguimos “engañar” a nuestro algoritmo y que no sepa descartar una instancia verdadera de una falsa. Lo “malo” es cuando estos sistemas también nos engañan a los humanos. Las GANs son una evolución de las redes de neuronas convolucionales. En esta charla pretendo explicaros su funcionamiento, aplicaciones, estructura, ver un poco de código de ejemplo con Keras/Tensor Flow y luego mostrar ejemplos de NVIDIA, de la app Zao o incluso de El Intermedio con sus imitaciones a famosos."
+            }
+        },
+        {
+            "visible": true,
+            "slug": "isabel-garrido",
+            "image": "",
+            "name": "Isabel Garrido Cardenas",
+            "bio": "",
+            "social": {
+                "twitter": "https://twitter.com/isabeliita90",
+                "linkedin": "https://es.linkedin.com/in/isabel-garrido-4000164a"
+            },
+            "talk": {
+                "title": "Otra charla sobre microservicios",
+                "description": "En los últimos años los microservicios se han convertido en una de las arquitecturas más populares en la industria. Demasiado a menudo se habla de ellos como si fueran una la solución por defecto a todos los problemas... ¡PERO NO! Una de las razones que está sonando más, es la complejidad accidental que conllevan. En letgo actualmente mantenemos más de 40 (micro)servicios operados por 11 equipos. Os explicaremos basados en nuestra experiencia los principales patrones de comunicación entre ellos, los pros y contras que nos hemos ido encontrando y cómo nos han ayudado a escalar nuestra producto a nivel de infra y a nivel de organización."
+            }
+        },
+        {
+            "visible": true,
+            "slug": "sergi-gonzalez",
+            "image": "",
+            "name": "Sergi González",
+            "bio": "",
+            "social": {
+                "twitter": "https://twitter.com/sergigp",
+                "linkedin": "https://www.linkedin.com/in/sergigp/"
+            },
+            "talk": {
+                "title": "Otra charla sobre microservicios",
+                "description": "En los últimos años los microservicios se han convertido en una de las arquitecturas más populares en la industria. Demasiado a menudo se habla de ellos como si fueran una la solución por defecto a todos los problemas... ¡PERO NO! Una de las razones que está sonando más, es la complejidad accidental que conllevan. En letgo actualmente mantenemos más de 40 (micro)servicios operados por 11 equipos. Os explicaremos basados en nuestra experiencia los principales patrones de comunicación entre ellos, los pros y contras que nos hemos ido encontrando y cómo nos han ayudado a escalar nuestra producto a nivel de infra y a nivel de organización."
+            }
+        },
+        {
+            "visible": true,
+            "slug": "ignacio-velazquez",
+            "image": "https://www.gravatar.com/avatar/49f04efaf80ecb68e6e383919019b843?s=500",
+            "name": "Ignacio Velazquez",
+            "bio": "",
+            "social": {
+                "twitter": "https://twitter.com/nass600",
+                "linkedin": "https://www.linkedin.com/in/nass600",
+                "github": "https://github.com/nass600",
+                "web": "https://ignaciovelazquez.es/"
+            },
+            "talk": {
+                "title": "Implementing corporate Design Systems in React",
+                "description": "Los sistemas de diseño han estado en todos los medios durante los últimos años. Probablemente sepas de qué tratan, probablemente escuchaste sobre átomos, moléculas, organismos ... y, con suerte, no te diste la vuelta porque te sentiste abrumado después de leer un montón de artículos inundados con terminología de diseño que crees que no tiene nada que ver contigo como desarrollador de frontend. En esta charla, te mostraré una forma de implementarlo utilizando un framework moderno de arquitectura orientada a componentes como React y las herramientas relacionadas con sistemas de diseño que puedes encontrar en su ecosistema."
+            }
+        },
+        {
+            "visible": true,
+            "slug": "laura-morillo",
+            "image": "",
+            "name": "Laura Morillo-Velarde Rodríguez",
+            "bio": "",
+            "social": {
+                "twitter": "https://twitter.com/laura_morillo",
+                "linkedin": "https://es.linkedin.com/in/lauramorillovelarderodriguez"
+            },
+            "talk": {
+                "title": "¿Qué le pasa a mis microservicios?",
+                "description": "El desarrollo con microservicios es toda una aventura que presenta grandes desafíos, pero cuando tenemos que dar el paso a producción los retos que nos encontramos pueden ser aún mayores. En esta charla hablaremos de la importancia que tiene la monitorización de nuestros servicios y veremos algunas herramientas que nos ayudarán a que podamos medir y vigilar lo pasa en todo momento en un entorno de microservicios con Kubernetes."
+            }
+        },
+        {
+            "visible": true,
+            "slug": "berta-devant",
+            "image": "",
+            "name": "Berta Devant Pintado",
+            "bio": "",
+            "social": {
+                "twitter": "https://twitter.com/bertadevant"
+            },
+            "talk": {
+                "title": "TBD",
+                "description": "TBD"
+            }
+        },
+        {
+            "visible": true,
+            "slug": "silvia-calvet",
+            "image": "",
+            "name": "Silvia Calvet",
+            "bio": "",
+            "social": {
+                "twitter": "https://twitter.com/silviacalvet",
+                "web": "http://stereometrics.info/",
+                "linkedin": "https://www.linkedin.com/in/silviacalvet/"
+            },
+            "talk": {
+                "title": "El poder de las restricciones",
+                "description": "Tendemos a centrarnos en los requisitos para crear productos. Algunos de ellos son limitaciones. Y las limitaciones tienen mala prensa porque hay una creencia general que ellas nos impiden hacer lo que queremos. Sin embargo, las restricciones ayudan a desarrollar mejores soluciones! Únete a mí para descubrir cómo las limitaciones aumentan la creatividad y nos dan empatía. En esta charla revisaremos ejemplos de restricciones en nuestra industria y compartiré algunos consejos y herramientas para considerarlas con tu equipo."
             }
         }
     ],
     "agenda": {
-        "visible": true,
+        "visible": false,
         "time_slots": ["10:00-11:00", "11:00-12:00"],
         "tracks":[
             {
