@@ -31,7 +31,7 @@ module.exports =
             "visible": true,
             "slug": "luis-fraile",
             "company": "",
-            "image": "/luis-fraile.jpg",
+            "image": "/speakers/luis-fraile.jpg",
             "name": "Luis Fraile Hernández",
             "bio": "",
             "social": {
@@ -49,7 +49,7 @@ module.exports =
             "visible": true,
             "slug": "joan-leon",
             "company": "",
-            "image": "/joan-leon.png",
+            "image": "/speakers/joan-leon.png",
             "name": "Joan León",
             "bio": "",
             "social": {
@@ -67,7 +67,7 @@ module.exports =
             "visible": true,
             "slug": "nerea-luis",
             "company": "",
-            "image": "/nerea-luis.jpg",
+            "image": "/speakers/nerea-luis.jpg",
             "name": "Nerea Luis Mingueza",
             "bio": "",
             "social": {
@@ -84,7 +84,7 @@ module.exports =
             "visible": true,
             "slug": "isabel-garrido",
             "company": "",
-            "image": "/isabel-garrido.JPG",
+            "image": "/speakers/isabel-garrido.JPG",
             "name": "Isabel Garrido Cardenas",
             "bio": "",
             "social": {
@@ -101,7 +101,7 @@ module.exports =
             "visible": true,
             "slug": "sergi-gonzalez",
             "company": "",
-            "image": "/sergi-gonzalez.jpg",
+            "image": "/speakers/sergi-gonzalez.jpg",
             "name": "Sergi González",
             "bio": "",
             "social": {
@@ -136,7 +136,7 @@ module.exports =
             "visible": true,
             "slug": "laura-morillo",
             "company": "",
-            "image": "/laura-morillo.jpg",
+            "image": "/speakers/laura-morillo.jpg",
             "name": "Laura Morillo-Velarde Rodríguez",
             "bio": "",
             "social": {
@@ -153,7 +153,7 @@ module.exports =
             "visible": true,
             "slug": "berta-devant",
             "company": "Chartboost",
-            "image": "/berta-devant.jpg",
+            "image": "/speakers/berta-devant.jpg",
             "name": "Berta Devant Pintado",
             "bio": "",
             "social": {
@@ -170,7 +170,7 @@ module.exports =
             "visible": true,
             "slug": "silvia-calvet",
             "company": "",
-            "image": "/silvia-calvet.png",
+            "image": "/speakers/silvia-calvet.png",
             "name": "Silvia Calvet",
             "bio": "",
             "social": {
