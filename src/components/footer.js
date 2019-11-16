@@ -31,6 +31,7 @@ export default () => (
                   }
                 },
                 sponsor_blocks{
+                  visible,
                   name,
                   height_em,
                   sponsors {

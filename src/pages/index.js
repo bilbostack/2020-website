@@ -77,7 +77,7 @@ export default ({data}) => {
             })}
         </section>
 
-        <Agenda agenda={configData.agenda} speakers={configData.speakers}/>
+        {configData.agenda.visible ? <Agenda agenda={configData.agenda} speakers={configData.speakers}/> : ""}
     </div>
 
     <Footer/>

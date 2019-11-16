@@ -8,8 +8,6 @@ import { FaArrowLeft, FaTwitter, FaLinkedin, FaGithub, FaWeebly } from 'react-ic
 const SpeakerTemplate = context => {
   const speaker = context.pageContext.speaker;
 
-  console.log(speaker);
-
   const configData = context.pageContext.configData;
 
   function bioWithHtml() {
@@ -65,7 +63,7 @@ const SpeakerTemplate = context => {
 
                 <div className="row">
                     <div className="col-md-4 text-center">
-                        <img src={speaker.image} alt={speaker.name}/>
+                        <img src={speaker.image} alt={speaker.name} className="img-fluid"/>
                     </div>
                     <div className="col-md-8">
                         <h1>{speaker.name}</h1>
@@ -77,10 +75,11 @@ const SpeakerTemplate = context => {
                             {speaker.social.linkedin ? <a href={speaker.social.linkedin}><FaLinkedin/></a> : ""}
                         </p>
 
+                        {speaker.bio ?
                         <div className="block">
                             <h4>Acerca de</h4>
                             <p dangerouslySetInnerHTML={bioWithHtml()}></p>
-                        </div>
+                        </div> : ""}
 
                         <div className="block">
                             <h4>{speaker.talk.title}</h4>

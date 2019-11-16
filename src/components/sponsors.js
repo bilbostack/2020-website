@@ -2,7 +2,7 @@ import React from "react"
 
 export default ({ sponsorBlocks }) => {
 
-    const has_sponsors = !!sponsorBlocks.map( block => block.sponsors.length )
+    const has_sponsors = !!sponsorBlocks.map( block => !block.visible ? 0 : block.sponsors.length )
                                          .reduce((prev, current) => prev + current, 0)
     
     return <section id="sponsors">
