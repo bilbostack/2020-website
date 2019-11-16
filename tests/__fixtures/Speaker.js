@@ -8,7 +8,8 @@ export default {
     "social": {
         "twitter": "https://twitter.com/asiermarques",
         "linkedin": "https://linkedin.com/in/asier",
-        "github": "https://github.com/asiermarques"
+        "github": "https://github.com/asiermarques",
+        "web": "https://github.com/asiermarques"
     },
     "talk": {
         "title": "Talk title demo",

@@ -3,10 +3,13 @@ import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import Header from "../components/headerInner"
 import Footer from "../components/footer"
-import { FaArrowLeft, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaArrowLeft, FaTwitter, FaLinkedin, FaGithub, FaWeebly } from 'react-icons/fa'
 
 const SpeakerTemplate = context => {
   const speaker = context.pageContext.speaker;
+
+  console.log(speaker);
+
   const configData = context.pageContext.configData;
 
   function bioWithHtml() {
@@ -70,6 +73,7 @@ const SpeakerTemplate = context => {
                         <p>
                             {speaker.social.twitter ? <a href={speaker.social.twitter}><FaTwitter/></a> : ""}&nbsp;
                             {speaker.social.github ? <a href={speaker.social.github}><FaGithub/></a> : ""}&nbsp;
+                            {speaker.social.web ? <a href={speaker.social.web}><FaWeebly/></a> : ""}&nbsp;
                             {speaker.social.linkedin ? <a href={speaker.social.linkedin}><FaLinkedin/></a> : ""}
                         </p>
 

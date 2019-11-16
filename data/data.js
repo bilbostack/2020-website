@@ -31,14 +31,14 @@ module.exports =
             "visible": true,
             "slug": "luis-fraile",
             "company": "",
-            "image": "",
+            "image": "/luis-fraile.jpg",
             "name": "Luis Fraile Hernández",
             "bio": "",
             "social": {
                 "twitter": "https://twitter.com/lfraile",
                 "linkedin": "https://www.linkedin.com/in/lfraile/",
-                "github": ""
-                //"web": "https://www.lfraile.net"
+                "github": "",
+                "web": "https://www.lfraile.net"
             },
             "talk": {
                 "title": "DevOps: el camino de la entrega de valor en software",
@@ -49,14 +49,14 @@ module.exports =
             "visible": true,
             "slug": "joan-leon",
             "company": "",
-            "image": "",
+            "image": "/joan-leon.png",
             "name": "Joan León",
             "bio": "",
             "social": {
                 "twitter": "https://twitter.com/nucliweb",
                 "linkedin": "",
                 "github": "https://github.com/nucliweb",
-                // "web": "http://nucliweb.net/"
+                "web": "http://nucliweb.net/"
             },
             "talk": {
                 "title": "Unos estáticos muy dinámicos",
@@ -67,7 +67,7 @@ module.exports =
             "visible": true,
             "slug": "nerea-luis",
             "company": "",
-            "image": "",
+            "image": "/nerea-luis.jpg",
             "name": "Nerea Luis Mingueza",
             "bio": "",
             "social": {
@@ -84,7 +84,7 @@ module.exports =
             "visible": true,
             "slug": "isabel-garrido",
             "company": "",
-            "image": "",
+            "image": "/isabel-garrido.JPG",
             "name": "Isabel Garrido Cardenas",
             "bio": "",
             "social": {
@@ -101,7 +101,7 @@ module.exports =
             "visible": true,
             "slug": "sergi-gonzalez",
             "company": "",
-            "image": "",
+            "image": "/sergi-gonzalez.jpg",
             "name": "Sergi González",
             "bio": "",
             "social": {
@@ -125,7 +125,7 @@ module.exports =
                 "twitter": "https://twitter.com/nass600",
                 "linkedin": "https://www.linkedin.com/in/nass600",
                 "github": "https://github.com/nass600",
-                // "web": "https://ignaciovelazquez.es/"
+                "web": "https://ignaciovelazquez.es/"
             },
             "talk": {
                 "title": "Implementing corporate Design Systems in React",
@@ -136,7 +136,7 @@ module.exports =
             "visible": true,
             "slug": "laura-morillo",
             "company": "",
-            "image": "",
+            "image": "/laura-morillo.jpg",
             "name": "Laura Morillo-Velarde Rodríguez",
             "bio": "",
             "social": {
@@ -152,8 +152,8 @@ module.exports =
         {
             "visible": true,
             "slug": "berta-devant",
-            "company": "",
-            "image": "",
+            "company": "Chartboost",
+            "image": "/berta-devant.jpg",
             "name": "Berta Devant Pintado",
             "bio": "",
             "social": {
@@ -170,12 +170,12 @@ module.exports =
             "visible": true,
             "slug": "silvia-calvet",
             "company": "",
-            "image": "",
+            "image": "/silvia-calvet.png",
             "name": "Silvia Calvet",
             "bio": "",
             "social": {
                 "twitter": "https://twitter.com/silviacalvet",
-                // "web": "http://stereometrics.info/",
+                "web": "http://stereometrics.info/",
                 "linkedin": "https://www.linkedin.com/in/silviacalvet/",
                 "github": ""
             },
@@ -186,16 +186,12 @@ module.exports =
         }
     ],
     "agenda": {
-        "visible": true,
+        "visible": false,
         "time_slots": ["10:00-11:00", "11:00-12:00"],
         "tracks":[
             {
                 "name": "Sala Barria",
                 "content_in_slots": [
-                    {
-                        "type": "speaker",
-                        "content": "sara-smith"
-                    },
                     {
                         "type": "text",
                         "content": "Coffee pause"
@@ -205,10 +201,6 @@ module.exports =
             {
                 "name": "Sala A3",
                 "content_in_slots": [
-                    {
-                        "type": "speaker",
-                        "content": "sara-smith"
-                    },
                     {
                         "type": "text",
                         "content": "Coffee pause"
