@@ -282,26 +282,34 @@ module.exports =
     ],
     "sponsor_blocks": [
         {
-            "visible": false,
+            "visible": true,
             "name": "",
-            "height_em": "15",
+            "height_em": "12",
             "sponsors": [
                 {
-                    "name": "",
-                    "link": "",
-                    "image": ""
-                }
-            ]
-        },
-        {
-            "visible": false,
-            "name": "",
-            "height_em": "10",
-            "sponsors": [
+                    "name": "Packlink Shipping",
+                    "link": "https://packlink.es",
+                    "image": "/sponsors/packlink.png"
+                },
                 {
-                    "name": "",
-                    "link": "",
-                    "image": ""
+                    "name": "Plain Concepts",
+                    "link": "https://plainconcepts.com",
+                    "image": "/sponsors/plain-logo.png"
+                },
+                {
+                    "name": "Lookiero",
+                    "link": "https://lookiero.com",
+                    "image": "/sponsors/lookiero_tech_logo.png"
+                },
+                {
+                    "name": "Thoughtworks",
+                    "link": "https://www.thoughtworks.com/",
+                    "image": "/sponsors/tw-logo.png"
+                },
+                {
+                    "name": "Comalatech",
+                    "link": "https://comalatech.com",
+                    "image": "/sponsors/comalatech.png"
                 }
             ]
         }
@@ -318,6 +326,10 @@ module.exports =
         {
             "link": "/indications",
             "title": "Cómo llegar"
+        },
+        {
+            "link": "https://2019.bilbostack.com",
+            "title": "Edición del 2019"
         }
 
     ]
