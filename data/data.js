@@ -24,7 +24,7 @@ module.exports =
     "home": {
         "title": "Nuestro programa",
         "description": "Por noveno año consecutivo, profesionales nacionales e internacionales referencia del sector tecnológico vendrán a Bilbao a compartir sus conocimientos sobre las diferentes temáticas más relevantes en la actualidad.",
-        "agenda_cta_text": "Agenda no disponible aún"
+        "agenda_cta_text": "Ver la agenda"
     },
     "speakers": [
         {
