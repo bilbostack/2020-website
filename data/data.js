@@ -29,8 +29,25 @@ module.exports =
     "speakers": [
         {
             "visible": true,
+            "slug": "laura-morillo",
+            "company": "SSP Tech Lead en Seedtag",
+            "image": "/speakers/laura-morillo.jpg",
+            "name": "Laura Morillo-Velarde Rodríguez",
+            "bio": "",
+            "social": {
+                "twitter": "https://twitter.com/laura_morillo",
+                "linkedin": "https://es.linkedin.com/in/lauramorillovelarderodriguez",
+                "github": ""
+            },
+            "talk": {
+                "title": "¿Qué le pasa a mis microservicios?",
+                "description": "El desarrollo con microservicios es toda una aventura que presenta grandes desafíos, pero cuando tenemos que dar el paso a producción los retos que nos encontramos pueden ser aún mayores. En esta charla hablaremos de la importancia que tiene la monitorización de nuestros servicios y veremos algunas herramientas que nos ayudarán a que podamos medir y vigilar lo pasa en todo momento en un entorno de microservicios con Kubernetes."
+            }
+        },
+        {
+            "visible": true,
             "slug": "luis-fraile",
-            "company": "",
+            "company": "CTO en B!Play Global Content",
             "image": "/speakers/luis-fraile.jpg",
             "name": "Luis Fraile Hernández",
             "bio": "",
@@ -47,26 +64,8 @@ module.exports =
         },
         {
             "visible": true,
-            "slug": "joan-leon",
-            "company": "",
-            "image": "/speakers/joan-leon.png",
-            "name": "Joan León",
-            "bio": "",
-            "social": {
-                "twitter": "https://twitter.com/nucliweb",
-                "linkedin": "",
-                "github": "https://github.com/nucliweb",
-                "web": "http://nucliweb.net/"
-            },
-            "talk": {
-                "title": "Unos estáticos muy dinámicos",
-                "description": "En muchos proyectos, tenemos una series de recursos que no son dinámicos: imágenes, vídeos, iconos, tipografías o textos i18n. Las imágenes suelen ser las menos cuidadas, desde el punto de vista de la performance. Y lo sé de primera mano, así que os quiero contar cómo pasamos de una carpeta images desplegada en un S3, a un repositorio con unas guidelines de la estructura, naming, automatización de compresión de imágenes y generación de “Responsive Images”, test de regresión visual e incluso un garbage images collector, para hacer limpieza de esas imágenes que quedan en el olvido."
-            }
-        },
-        {
-            "visible": true,
             "slug": "nerea-luis",
-            "company": "",
+            "company": "AI Engineer en Sngular",
             "image": "/speakers/nerea-luis.jpg",
             "name": "Nerea Luis Mingueza",
             "bio": "",
@@ -82,25 +81,8 @@ module.exports =
         },
         {
             "visible": true,
-            "slug": "isabel-garrido",
-            "company": "",
-            "image": "/speakers/isabel-garrido.JPG",
-            "name": "Isabel Garrido Cardenas",
-            "bio": "",
-            "social": {
-                "twitter": "https://twitter.com/isabeliita90",
-                "linkedin": "https://es.linkedin.com/in/isabel-garrido-4000164a",
-                "github": ""
-            },
-            "talk": {
-                "title": "Otra charla sobre microservicios",
-                "description": "En los últimos años los microservicios se han convertido en una de las arquitecturas más populares en la industria. Demasiado a menudo se habla de ellos como si fueran una la solución por defecto a todos los problemas... ¡PERO NO! Una de las razones que está sonando más, es la complejidad accidental que conllevan. En letgo actualmente mantenemos más de 40 (micro)servicios operados por 11 equipos. Os explicaremos basados en nuestra experiencia los principales patrones de comunicación entre ellos, los pros y contras que nos hemos ido encontrando y cómo nos han ayudado a escalar nuestra producto a nivel de infra y a nivel de organización."
-            }
-        },
-        {
-            "visible": true,
             "slug": "sergi-gonzalez",
-            "company": "",
+            "company": "Backend Tech Lead en Letgo",
             "image": "/speakers/sergi-gonzalez.jpg",
             "name": "Sergi González",
             "bio": "",
@@ -116,8 +98,25 @@ module.exports =
         },
         {
             "visible": true,
+            "slug": "isabel-garrido",
+            "company": "Senior Backend Engineer en Letgo",
+            "image": "/speakers/isabel-garrido.JPG",
+            "name": "Isabel Garrido Cardenas",
+            "bio": "",
+            "social": {
+                "twitter": "https://twitter.com/isabeliita90",
+                "linkedin": "https://es.linkedin.com/in/isabel-garrido-4000164a",
+                "github": ""
+            },
+            "talk": {
+                "title": "Otra charla sobre microservicios",
+                "description": "En los últimos años los microservicios se han convertido en una de las arquitecturas más populares en la industria. Demasiado a menudo se habla de ellos como si fueran una la solución por defecto a todos los problemas... ¡PERO NO! Una de las razones que está sonando más, es la complejidad accidental que conllevan. En letgo actualmente mantenemos más de 40 (micro)servicios operados por 11 equipos. Os explicaremos basados en nuestra experiencia los principales patrones de comunicación entre ellos, los pros y contras que nos hemos ido encontrando y cómo nos han ayudado a escalar nuestra producto a nivel de infra y a nivel de organización."
+            }
+        },
+        {
+            "visible": true,
             "slug": "ignacio-velazquez",
-            "company": "Frontend Lead en Packlink Shipping",
+            "company": "Frontend Tech Lead en Packlink Shipping",
             "image": "/speakers/nacho.png",
             "name": "Ignacio Velazquez",
             "bio": "",
@@ -132,33 +131,17 @@ module.exports =
                 "description": "Los sistemas de diseño han estado en todos los medios durante los últimos años. Probablemente sepas de qué tratan, probablemente escuchaste sobre átomos, moléculas, organismos ... y, con suerte, no te diste la vuelta porque te sentiste abrumado después de leer un montón de artículos inundados con terminología de diseño que crees que no tiene nada que ver contigo como desarrollador de frontend. En esta charla, te mostraré una forma de implementarlo utilizando un framework moderno de arquitectura orientada a componentes como React y las herramientas relacionadas con sistemas de diseño que puedes encontrar en su ecosistema."
             }
         },
-        {
-            "visible": true,
-            "slug": "laura-morillo",
-            "company": "",
-            "image": "/speakers/laura-morillo.jpg",
-            "name": "Laura Morillo-Velarde Rodríguez",
-            "bio": "",
-            "social": {
-                "twitter": "https://twitter.com/laura_morillo",
-                "linkedin": "https://es.linkedin.com/in/lauramorillovelarderodriguez",
-                "github": ""
-            },
-            "talk": {
-                "title": "¿Qué le pasa a mis microservicios?",
-                "description": "El desarrollo con microservicios es toda una aventura que presenta grandes desafíos, pero cuando tenemos que dar el paso a producción los retos que nos encontramos pueden ser aún mayores. En esta charla hablaremos de la importancia que tiene la monitorización de nuestros servicios y veremos algunas herramientas que nos ayudarán a que podamos medir y vigilar lo pasa en todo momento en un entorno de microservicios con Kubernetes."
-            }
-        },
+        
         {
             "visible": true,
             "slug": "berta-devant",
-            "company": "Chartboost",
+            "company": "IOS Engineer en Chartboost",
             "image": "/speakers/berta-devant.jpg",
             "name": "Berta Devant Pintado",
             "bio": "",
             "social": {
                 "twitter": "https://twitter.com/bertadevant",
-                "linkedin": "",
+                "linkedin": "https://www.linkedin.com/in/berta-devant/",
                 "github": ""
             },
             "talk": {
@@ -168,8 +151,26 @@ module.exports =
         },
         {
             "visible": true,
+            "slug": "joan-leon",
+            "company": "Frontend Engineer en Adevinta Spain",
+            "image": "/speakers/joan-leon.png",
+            "name": "Joan León",
+            "bio": "",
+            "social": {
+                "twitter": "https://twitter.com/nucliweb",
+                "linkedin": "https://www.linkedin.com/in/joanleon/",
+                "github": "https://github.com/nucliweb",
+                "web": "http://nucliweb.net/"
+            },
+            "talk": {
+                "title": "Unos estáticos muy dinámicos",
+                "description": "En muchos proyectos, tenemos una series de recursos que no son dinámicos: imágenes, vídeos, iconos, tipografías o textos i18n. Las imágenes suelen ser las menos cuidadas, desde el punto de vista de la performance. Y lo sé de primera mano, así que os quiero contar cómo pasamos de una carpeta images desplegada en un S3, a un repositorio con unas guidelines de la estructura, naming, automatización de compresión de imágenes y generación de “Responsive Images”, test de regresión visual e incluso un garbage images collector, para hacer limpieza de esas imágenes que quedan en el olvido."
+            }
+        },
+        {
+            "visible": true,
             "slug": "silvia-calvet",
-            "company": "",
+            "company": "Independent Product & UX Coach",
             "image": "/speakers/silvia-calvet.png",
             "name": "Silvia Calvet",
             "bio": "",
