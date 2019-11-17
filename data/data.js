@@ -293,7 +293,7 @@ module.exports =
                 },
                 {
                     "name": "Plain Concepts",
-                    "link": "https://plainconcepts.com",
+                    "link": "https://www.plainconcepts.com",
                     "image": "/sponsors/plain-logo.png"
                 },
                 {
