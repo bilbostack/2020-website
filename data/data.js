@@ -186,16 +186,40 @@ module.exports =
         }
     ],
     "agenda": {
-        "visible": false,
-        "time_slots": ["10:00-11:00", "11:00-12:00"],
+        "visible": true,
+        "time_slots": ["9:00-9:20", "9:30-10:20", "10:30-11:20", "11:30-12:00", "12:00-12:50", "13:00-13:50", ">14:00"],
         "tracks":[
             {
                 "name": "Sala Barria",
                 "content_in_slots": [
                     {
                         "type": "text",
-                        "content": "Coffee pause"
-                    }
+                        "content": "Presentación"
+                    },
+                    {
+                        "type": "speaker",
+                        "content": "luis-fraile"
+                    },
+                    {
+                        "type": "speaker",
+                        "content": "laura-morillo"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Networking + café"
+                    },
+                    {
+                        "type": "speaker",
+                        "content": "nerea-luis"
+                    },
+                    {
+                        "type": "speaker",
+                        "content": "isabel-garrido"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Networking + pintxos y poteo"
+                    }                    
                 ]
             },
             {
@@ -203,7 +227,31 @@ module.exports =
                 "content_in_slots": [
                     {
                         "type": "text",
-                        "content": "Coffee pause"
+                        "content": "Presentación"
+                    },
+                    {
+                        "type": "speaker",
+                        "content": "ignacio-velazquez"
+                    },
+                    {
+                        "type": "speaker",
+                        "content": "silvia-calvet"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Networking + café"
+                    },
+                    {
+                        "type": "speaker",
+                        "content": "joan-leon"
+                    },
+                    {
+                        "type": "speaker",
+                        "content": "berta-devant"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Networking + pintxos y poteo"
                     }
                 ]
             }
