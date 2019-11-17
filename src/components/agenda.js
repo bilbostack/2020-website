@@ -24,7 +24,7 @@ export default ({agenda, speakers}) => {
                             <td class="time">{time_range}</td>
                             {content.map( (content_item, index) => {
                                 
-                                if(content_item.type === agendaSlotType.SPEAKER) { 
+                                if(content_item.type === agendaSlotType.SPEAKER) 
                                     return (
                                         <td key={index}>
                                             <a href={content_item.content.slug + "#talk"}>
@@ -33,9 +33,19 @@ export default ({agenda, speakers}) => {
                                             </a>
                                         </td>
                                     )
-                                }else{
-                                    return (<td key={index}><p>{content_item.content}</p></td>)
-                                }
+
+                                if(content_item.type === agendaSlotType.SPEAKER_GROUP) 
+                                    return (
+                                        <td key={index}>
+                                            <a href={content_item.content[0].slug + "#talk"}>
+                                                <h5>{content_item.content[0].talk.title}</h5>
+                                                <p>{content_item.content.reduce( (prev_speaker, current_speaker) => prev_speaker.name + " & " + current_speaker.name)}</p>
+                                            </a>
+                                        </td>
+                                    )
+                                
+                                return (<td key={index}><p>{content_item.content}</p></td>)
+                                
                             })}
                         </tr>
                         )

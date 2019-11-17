@@ -117,7 +117,7 @@ module.exports =
             "visible": true,
             "slug": "ignacio-velazquez",
             "company": "Frontend Tech Lead en Packlink Shipping",
-            "image": "/speakers/nacho.png",
+            "image": "/speakers/nacho.jpeg",
             "name": "Ignacio Velazquez",
             "bio": "",
             "social": {
@@ -214,8 +214,8 @@ module.exports =
                         "content": "nerea-luis"
                     },
                     {
-                        "type": "speaker",
-                        "content": "isabel-garrido"
+                        "type": "speaker_group",
+                        "content": "isabel-garrido+sergi-gonzalez"
                     },
                     {
                         "type": "text",
