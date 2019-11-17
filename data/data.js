@@ -231,7 +231,7 @@ module.exports =
                     },
                     {
                         "type": "speaker",
-                        "content": "ignacio-velazquez"
+                        "content": "joan-leon"
                     },
                     {
                         "type": "speaker",
@@ -243,7 +243,7 @@ module.exports =
                     },
                     {
                         "type": "speaker",
-                        "content": "joan-leon"
+                        "content": "ignacio-velazquez"
                     },
                     {
                         "type": "speaker",
