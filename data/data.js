@@ -284,7 +284,7 @@ module.exports =
         {
             "visible": true,
             "name": "",
-            "height_em": "12",
+            "height_em": "5",
             "sponsors": [
                 {
                     "name": "Packlink Shipping",
