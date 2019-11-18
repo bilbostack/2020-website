@@ -39,7 +39,8 @@ export default ({agenda, speakers}) => {
                                         <td key={index}>
                                             <a href={content_item.content[0].slug + "#talk"}>
                                                 <h5>{content_item.content[0].talk.title}</h5>
-                                                <p>{content_item.content.reduce( (prev_speaker, current_speaker) => prev_speaker.name + " & " + current_speaker.name)}</p>
+                                                <p>{content_item.content
+                                                    .reduce( (prev_speaker, current_speaker) => prev_speaker.name + " & " + current_speaker.name)}</p>
                                             </a>
                                         </td>
                                     )
