@@ -43,6 +43,14 @@ const SpeakerTemplate = context => {
             <meta name="msapplication-TileColor" content="#ffffff" />
             <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
             <meta name="theme-color" content="#ffffff" ></meta>
+
+            <meta property="og:image" content="http://bilbostack.com/bilbostack-share.png" />
+    <meta property="og:image:width" content="982" />
+    <meta property="og:image:height" content="517" />
+    <meta property="og:url" content="http://bilbostack.com"/>
+    <meta property="og:title" content="Bilbostack 2020 - 25 de Enero en Bilbao"/>
+    <meta property="og:description" content="Profesionales referencia del sector tecnológico vendrán a Bilbao a compartir sus conocimientos
+                            sobre las diferentes temáticas más relevantes en la actualidad."/>
         </Helmet>
 
         <Header data={configData}/>
