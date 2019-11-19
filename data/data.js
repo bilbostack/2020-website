@@ -19,7 +19,7 @@ module.exports =
     "header_banner": {
         "cta_pre_text": "Pronto abriremos entradas",
         "cta_text": "Entradas aún no disponibles",
-        "cta_url": "#"
+        "cta_url": "https://bilbostack2020.eventbrite.es"
     },
     "home": {
         "title": "Nuestro programa",
