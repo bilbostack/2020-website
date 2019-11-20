@@ -68,7 +68,7 @@ module.exports =
             "company": "AI Engineer en Sngular",
             "image": "/speakers/nerea-luis.jpg",
             "name": "Nerea Luis Mingueza",
-            "bio": "",
+            "bio": "Nerea Luis es Doctora en Ciencias de la Computación, Ingeniera en Inteligencia Artificial en Sngular y Cofundadora de T3chFest. <br/> <br/> Fue Women Techmaker Scholar en 2016 por Google. En 2018 la Fundación COTEC la seleccionó como experta en Tecnología, Talento y Género dentro de su red “Los 100 de Cotec”. También en 2018 ha sido ganadora del reconocimiento Innovadoras TIC por la Fundación Cibervoluntarios y el medio Business Insider la ha reconocido como uno de los 23 talentos menores de 35 años dispuestos a liderar la revolución tecnológica. Recientemente, ha sido galardonada por la Casa Real con la condecoración a la Orden del Mérito Civil.",
             "social": {
                 "twitter": "https://twitter.com/sailormerqury",
                 "linkedin": "https://www.linkedin.com/in/nerealuis/",
