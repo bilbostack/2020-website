@@ -290,6 +290,10 @@ module.exports =
                     "name": "Plain Concepts",
                     "link": "https://www.plainconcepts.com",
                     "image": "/sponsors/plain-logo.png"
+                },{
+                    "name": "Packlink Shipping",
+                    "link": "https://packlink.es",
+                    "image": "/sponsors/packlink.png"
                 },
                 {
                     "name": "Thoughtworks",
@@ -301,11 +305,6 @@ module.exports =
                     "link": "https://comalatech.com",
                     "image": "/sponsors/comalatech.png"
                 },{
-                    "name": "Packlink Shipping",
-                    "link": "https://packlink.es",
-                    "image": "/sponsors/packlink.png"
-                },
-                {
                     "name": "Sarenet",
                     "link": "https://www.sarenet.es/",
                     "image": "/sponsors/sarenet.png"
