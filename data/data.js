@@ -334,6 +334,11 @@ module.exports =
                     "name": "Gluck Games",
                     "link": "https://www.gluckgames.com/",
                     "image": "/sponsors/gluckgames.png"
+                },
+                {
+                    "name": "Everis",
+                    "link": "https://www.everis.com/spain",
+                    "image": "/sponsors/everis.png"
                 }
             ]
         }
