@@ -18,7 +18,7 @@ module.exports =
     },
     "header_banner": {
         "cta_pre_text": "A la venta desde el 21/11/2019 10am",
-        "cta_text": "Entradas aún no disponibles",
+        "cta_text": "¡Entradas disponibles!",
         "cta_url": "https://bilbostack2020.eventbrite.es"
     },
     "home": {
