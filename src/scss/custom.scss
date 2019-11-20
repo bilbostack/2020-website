@@ -183,6 +183,9 @@ section{
     .item{
         display: block;
         margin: 2em 1.5em;
+        img{
+            max-width: 100%;
+        }
     }
     @media only screen and (min-width: $resp-cut) {
         .item{
