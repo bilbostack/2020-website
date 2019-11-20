@@ -290,7 +290,8 @@ module.exports =
                     "name": "Plain Concepts",
                     "link": "https://www.plainconcepts.com",
                     "image": "/sponsors/plain-logo.png"
-                },{
+                },
+                {
                     "name": "Packlink Shipping",
                     "link": "https://packlink.es",
                     "image": "/sponsors/packlink.png"
