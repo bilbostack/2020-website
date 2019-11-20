@@ -100,7 +100,7 @@ module.exports =
             "visible": true,
             "slug": "isabel-garrido",
             "company": "Senior Backend Engineer en Letgo",
-            "image": "/speakers/isabel-garrido.JPG",
+            "image": "/speakers/isabel-garrido.jpg",
             "name": "Isabel Garrido Cardenas",
             "bio": "",
             "social": {
@@ -171,7 +171,7 @@ module.exports =
             "visible": true,
             "slug": "silvia-calvet",
             "company": "Independent Product & UX Coach",
-            "image": "/speakers/silvia-calvet.png",
+            "image": "/speakers/silvia-calvet.jpg",
             "name": "Silvia Calvet",
             "bio": "",
             "social": {
@@ -287,19 +287,9 @@ module.exports =
             "height_em": "5",
             "sponsors": [
                 {
-                    "name": "Packlink Shipping",
-                    "link": "https://packlink.es",
-                    "image": "/sponsors/packlink.png"
-                },
-                {
                     "name": "Plain Concepts",
                     "link": "https://www.plainconcepts.com",
                     "image": "/sponsors/plain-logo.png"
-                },
-                {
-                    "name": "Lookiero",
-                    "link": "https://lookiero.com",
-                    "image": "/sponsors/lookiero_tech_logo.png"
                 },
                 {
                     "name": "Thoughtworks",
@@ -310,6 +300,40 @@ module.exports =
                     "name": "Comalatech",
                     "link": "https://comalatech.com",
                     "image": "/sponsors/comalatech.png"
+                },{
+                    "name": "Packlink Shipping",
+                    "link": "https://packlink.es",
+                    "image": "/sponsors/packlink.png"
+                },
+                {
+                    "name": "Sarenet",
+                    "link": "https://www.sarenet.es/",
+                    "image": "/sponsors/sarenet.png"
+                },
+                {
+                    "name": "On4u",
+                    "link": "https://www.on4u.es/",
+                    "image": "/sponsors/on4u.png"
+                },
+                {
+                    "name": "Lookiero",
+                    "link": "https://lookiero.com",
+                    "image": "/sponsors/lookiero_tech_logo.png"
+                },
+                {
+                    "name": "Deiser",
+                    "link": "https://www.deiser.com/",
+                    "image": "/sponsors/deiser.png"
+                },
+                {
+                    "name": "OVH",
+                    "link": "https://www.ovh.es/",
+                    "image": "/sponsors/ovh.png"
+                },
+                {
+                    "name": "Gluck Games",
+                    "link": "https://www.gluckgames.com/",
+                    "image": "/sponsors/gluckgames.png"
                 }
             ]
         }
