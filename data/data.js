@@ -321,14 +321,14 @@ module.exports =
                     "image": "/sponsors/lookiero_tech_logo.png"
                 },
                 {
-                    "name": "Deiser",
-                    "link": "https://www.deiser.com/",
-                    "image": "/sponsors/deiser.png"
-                },
-                {
                     "name": "OVH",
                     "link": "https://www.ovh.es/",
                     "image": "/sponsors/ovh.png"
+                },
+                {
+                    "name": "Deiser",
+                    "link": "https://www.deiser.com/",
+                    "image": "/sponsors/deiser.png"
                 },
                 {
                     "name": "Gluck Games",
