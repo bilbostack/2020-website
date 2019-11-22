@@ -17,7 +17,7 @@ module.exports =
         ]
     },
     "header_banner": {
-        "cta_pre_text": "A la venta desde el 21/11/2019 10am",
+        "cta_pre_text": "2º oleada de 'Entradas Generales' a la venta el 24/11/2019 20:00h",
         "cta_text": "¡Entradas disponibles!",
         "cta_url": "https://bilbostack2020.eventbrite.es"
     },
