@@ -331,6 +331,11 @@ module.exports =
                     "image": "/sponsors/deiser.png"
                 },
                 {
+                    "name": "Cabify",
+                    "link": "https://www.cabify.com",
+                    "image": "/sponsors/cabi-logo.png"
+                },
+                {
                     "name": "Gluck Games",
                     "link": "https://www.gluckgames.com/",
                     "image": "/sponsors/gluckgames.png"
