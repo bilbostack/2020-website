@@ -17,7 +17,7 @@ module.exports =
         ]
     },
     "header_banner": {
-        "cta_pre_text": "Oleada FINAL de 'Entradas Generales' a la venta el 29/11/2019 17:00h",
+        "cta_pre_text": "",
         "cta_text": "¡Entradas disponibles!",
         "cta_url": "https://bilbostack2020.eventbrite.es"
     },
@@ -40,8 +40,26 @@ module.exports =
                 "github": ""
             },
             "talk": {
-                "title": "¿Qué le pasa a mis microservicios?",
-                "description": "El desarrollo con microservicios es toda una aventura que presenta grandes desafíos, pero cuando tenemos que dar el paso a producción los retos que nos encontramos pueden ser aún mayores. En esta charla hablaremos de la importancia que tiene la monitorización de nuestros servicios y veremos algunas herramientas que nos ayudarán a que podamos medir y vigilar lo pasa en todo momento en un entorno de microservicios con Kubernetes."
+                "title": "Monitorización con Prometheus",
+                "description": "En el mundo de las aplicaciones y microservicios nativos de la nube, Prometheus se ha convertido en el estándar para la monitorización. Esta charla muestra por qué y qué lo diferencia de los enfoques más tradicionales. Cómo se puede usar para monitorizar sistemas y aplicaciones, y cómo desarrollar aplicaciones nativas de Prometheus. También muestra las mejores prácticas al diseñar sistemas de alerta e integrarlos con herramientas de gestión de incidencias que tal vez ya se hayan implementado. No te la pierdas, las mejores 'moralejas' sobre monitorización te está esperando. "
+            }
+        },
+        {
+            "visible": true,
+            "slug": "beatriz-martinez",
+            "company": "Arquitectura e Innovación en IBM",
+            "image": "/speakers/beatriz-martinez.jpg",
+            "name": "Beatriz Martínez",
+            "bio": "",
+            "social": {
+                "twitter": "https://twitter.com/beatrizmrg",
+                "linkedin": "",
+                "github": "https://github.com/b3a-dev",
+                "web": "https://b3a.dev/"
+            },
+            "talk": {
+                "title": "Monitorización con Prometheus",
+                "description": "En el mundo de las aplicaciones y microservicios nativos de la nube, Prometheus se ha convertido en el estándar para la monitorización. Esta charla muestra por qué y qué lo diferencia de los enfoques más tradicionales. Cómo se puede usar para monitorizar sistemas y aplicaciones, y cómo desarrollar aplicaciones nativas de Prometheus. También muestra las mejores prácticas al diseñar sistemas de alerta e integrarlos con herramientas de gestión de incidencias que tal vez ya se hayan implementado. No te la pierdas, las mejores 'moralejas' sobre monitorización te está esperando. "
             }
         },
         {
@@ -202,8 +220,8 @@ module.exports =
                         "content": "luis-fraile"
                     },
                     {
-                        "type": "speaker",
-                        "content": "laura-morillo"
+                        "type": "speaker_group",
+                        "content": "laura-morillo+beatriz-martinez"
                     },
                     {
                         "type": "text",
