@@ -163,8 +163,8 @@ module.exports =
                 "github": ""
             },
             "talk": {
-                "title": "TBD",
-                "description": "TBD"
+                "title": "Compassionate Hiring",
+                "description": "Todos hemos estado en entrevistas realmente malas, esas entrevistas que te hacen cuestionar si sabes algo sobre tecnología o código y te hacen sentir frustrado y molesto. Después de una de esas entrevistas, hay muchas cosas que puedes hacer, blogs enteros sobre cómo puedes aprender de la experiencia y darte cuenta que una mala entrevista no significa que seas un mal desarrollador.<br>Pero nunca hablamos sobre la responsabilidad del entrevistador y/o compañía, sobre qué podrían haber hecho ellos para mejorar esa entrevista aunque hubieras fallado. Porque una mala entrevista puede hacer que un candidato deje de confiar en la compañía y el proceso que tienen, tanto ahora como en el futuro. Las entrevistas son una parte necesaria de nuestro trabajo, todos hemos sido candidatos al menos una vez y también seremos entrevistadores en el futuro, y desafortunadamente es un trabajo para el que no estamos muy preparados.<br>En esta charla quiero repasar algunos errores cometidos por equipos y empresas que pueden convertir una buena entrevista en una mala. Y cómo, con un poco de compasión, empatía y consejos, podemos hacer que todos los candidatos se sientan cómodos, sean la mejor versión de sí mismos y quieran volver al proceso más adelante, incluso si han fallado."
             }
         },
         {
