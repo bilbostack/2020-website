@@ -82,19 +82,19 @@ module.exports =
         },
         {
             "visible": true,
-            "slug": "nerea-luis",
-            "company": "AI Engineer en Sngular",
-            "image": "/speakers/nerea-luis.jpg",
-            "name": "Nerea Luis Mingueza",
-            "bio": "Nerea Luis es Doctora en Ciencias de la Computación, Ingeniera en Inteligencia Artificial en Sngular y Cofundadora de T3chFest. <br/> <br/> Fue Women Techmaker Scholar en 2016 por Google. En 2018 la Fundación COTEC la seleccionó como experta en Tecnología, Talento y Género dentro de su red “Los 100 de Cotec”. También en 2018 ha sido ganadora del reconocimiento Innovadoras TIC por la Fundación Cibervoluntarios y el medio Business Insider la ha reconocido como uno de los 23 talentos menores de 35 años dispuestos a liderar la revolución tecnológica. Recientemente, ha sido galardonada por la Casa Real con la condecoración a la Orden del Mérito Civil.",
+            "slug": "eduardo-matallanas",
+            "company": "AI Team Lead en Plain Concepts",
+            "image": "/speakers/eduardo-matallanas.jpg",
+            "name": "Eduardo Matallanas",
+            "bio": "AI Team Lead @ Plain Concepts UK. Data Engineer, doctorado en Inteligencia Artificial por la Universidad Politécnica de Madrid. Su tesis se centra en la aplicación de redes neuronales artificiales colaborativas para la optimización del recurso eléctrico. Miembro de la comunidad científica con numerosas publicaciones en revistas internacionales en el ámbito de la aplicación de algoritmos de IA. También es un destacado miembro de la comunidad de desarrolladores en el área de la robótica y la Inteligencia Artificial. Lleva alrededor de una década dedicado a la aplicación y el estudio de algoritmos de IA en diferentes áreas: tratamiento digital de señal, robótica, procesamiento de imágenes y habla, etc. También ha desarrollado diferentes aplicaciones con asistentes virtuales y chatbots para el acompañamiento de trabajadores.",
             "social": {
-                "twitter": "https://twitter.com/sailormerqury",
-                "linkedin": "https://www.linkedin.com/in/nerealuis/",
+                "twitter": "https://twitter.com/ematde",
+                "linkedin": "https://es.linkedin.com/in/matallanas",
                 "github": ""
             },
             "talk": {
-                "title": "Redes generativas adversarias",
-                "description": "Hasta el momento, el paradigma típico de extracción de conocimiento utilizando Machine Learning consistía en explotar fuentes de datos utilizando diferentes algoritmos, como podían ser las redes de neuronas. Con la llegada de las redes generativas adversarias (GANs), este paradigma cambia y ahora podemos generar nuevas instancias basadas en las conocidas, las que se encuentran en las fuentes de datos. El objetivo sería, por un lado, complementar los datasets y por otro, aprender qué características son clave en la toma de decisiones. Con esto también conseguimos “engañar” a nuestro algoritmo y que no sepa descartar una instancia verdadera de una falsa. Lo “malo” es cuando estos sistemas también nos engañan a los humanos. Las GANs son una evolución de las redes de neuronas convolucionales. En esta charla pretendo explicaros su funcionamiento, aplicaciones, estructura, ver un poco de código de ejemplo con Keras/Tensor Flow y luego mostrar ejemplos de NVIDIA, de la app Zao o incluso de El Intermedio con sus imitaciones a famosos."
+                "title": "¿Cómo de real puede llegar a ser la inteligencia artificial?",
+                "description": "Hoy en día es difícil no hablar de la Inteligencia Artificial y pensar en cómo se ha aplicado para resolver tareas difíciles y repetitivas para el ser humano. Pero en los últimos años, gracias a la llegada de las Redes Generativas Adversariales (GANs), la IA adoptó capacidades creativas que le permiten generar información artificial. Es la era de los Deepfakes, en la que puedes poner tu cara al actor de tu película favorita o ser felicitado por el presidente de los Estados Unidos. En esta charla, veremos gran parte de estas capacidades adquiridas por la IA, algunos ejemplos, y pondremos a prueba nuestro ojo para comprobar si estamos preparados para detectar que es real y que no."
             }
         },
         {
@@ -229,7 +229,7 @@ module.exports =
                     },
                     {
                         "type": "speaker",
-                        "content": "nerea-luis"
+                        "content": "eduardo-matallanas"
                     },
                     {
                         "type": "speaker_group",
