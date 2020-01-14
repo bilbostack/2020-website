@@ -8,8 +8,6 @@ export default ({ sponsorBlocks }) => {
     return <section id="sponsors">
                 <div className="container">
                     {has_sponsors && <>    
-                        <h2>Patrocinadores</h2>
-
                         {sponsorBlocks.map( (block, index_block) => (
                         <div key={index_block} className="list">
                             {block.name && <h3>{block.name}</h3>}

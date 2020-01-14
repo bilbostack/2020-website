@@ -301,7 +301,19 @@ module.exports =
     "sponsor_blocks": [
         {
             "visible": true,
-            "name": "",
+            "name": "Con la colaboración de",
+            "height_em": "10",
+            "sponsors": [
+                {
+                    "name": "Bilbao Ekintza",
+                    "link": "https://www.bilbao.eus/BilbaoEkintza",
+                    "image": "/sponsors/bilbao.png"
+                },
+            ]
+        },
+        {
+            "visible": true,
+            "name": "Patrocinadores",
             "height_em": "5",
             "sponsors": [
                 {
