@@ -392,6 +392,10 @@ module.exports =
             "title": "Cómo llegar"
         },
         {
+            "link": "mailto:info@bilbostack.com",
+            "title": "Contacto"
+        },
+        {
             "link": "https://2019.bilbostack.com",
             "title": "Edición del 2019"
         }
