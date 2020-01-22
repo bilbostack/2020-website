@@ -194,7 +194,7 @@ module.exports =
             "bio": "",
             "social": {
                 "twitter": "https://twitter.com/silviacalvet",
-                "web": "http://stereometrics.info/",
+                "web": "http://stereometrics.club/",
                 "linkedin": "https://www.linkedin.com/in/silviacalvet/",
                 "github": ""
             },
