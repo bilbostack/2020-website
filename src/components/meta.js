@@ -5,7 +5,7 @@ export default (props) =>  <Helmet>
             <meta charSet="utf-8" />
             <title>{props.title}</title>
             <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet"></link>
-            <link rel="canonical" href="{configData.conference_claim}" />
+            <link rel="canonical" href="https://bilbostack.com" />
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
             <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
             <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
