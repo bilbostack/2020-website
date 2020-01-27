@@ -7,7 +7,7 @@ exports[`LocationMap renders correctly 1`] = `
   <h2
     class="text-center"
   >
-    Location
+    Localización
   </h2>
   <div
     class="content_wrap"
@@ -48,7 +48,7 @@ exports[`LocationMap renders correctly 1`] = `
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      open map
+                      Abrir en Google Maps
                     </a>
                   </small>
                 </p>

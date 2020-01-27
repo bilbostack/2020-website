@@ -3,7 +3,7 @@
 exports[`Organizers renders correctly 1`] = `
 Array [
   <h3>
-    Organizers
+    Organizadores
   </h3>,
   <div
     class="row justify-content-start"
